@@ -116,13 +116,13 @@ li, a{
     animation: rgbBorder 3s infinite cubic-bezier(0.4, 0, 0.2, 1);
   }
    .home_img, .home-img{
-    height: 750px;
+    height: 850px;
     font-family: sans-serif;
     position: sticky;
     top: 0;
     animation: zoomIn 1s ease-in-out;
   }
-   .section-title-about{
+   .section-title{
     align-self: center;
     color: #ffffff;
     border: 1px solid rgb(255, 255, 255);
@@ -133,14 +133,15 @@ li, a{
     margin-left: 14rem;
     /* margin-top: 10rem; */
    }
-.about{
-  padding: 0;
+.About{
+  padding: 2rem 0;
 }
 .about-container {
   position: relative;
   max-width: 1040px;
   display: grid;
   margin-left: auto;
+  margin-top: 2rem;
   margin-right: auto;
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
@@ -176,7 +177,7 @@ li, a{
 }
 
 .imgg {
-  height: 700px;
+  height: 670px;
   margin-left: 2rem;
   margin-top: 0;
   border-radius: 10px;
@@ -224,9 +225,13 @@ li, a{
       opacity: 1;
   }
 }
+/* .shop{
+  padding: 3rem 0;
+} */
 .shop-container{
   max-width: 1040px;
   display: grid;
+  margin-top: 2.5rem;
   margin-left: auto;
   margin-right: auto;
   grid-template-columns: repeat(3, 1fr);
