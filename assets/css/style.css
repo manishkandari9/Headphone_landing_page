@@ -121,6 +121,8 @@ li, a{
     position: sticky;
     top: 0;
     animation: zoomIn 1s ease-in-out;
+    /* filter: drop-shadow(0px 0px 12px rgb(255, 255, 255)); */
+    /* box-shadow: 0px 0px 20px rgb(7, 247, 255); */
   }
    .section-title{
     align-self: center;
@@ -255,5 +257,5 @@ li, a{
   width: 332px;
   border-top-left-radius: 70px;
   border-bottom-right-radius: 70px;
-  border: 2.5px solid rgb(0, 183, 255);
+  border: 2.5px solid rgb(179, 0, 255);
 }
