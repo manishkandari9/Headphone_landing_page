@@ -268,7 +268,7 @@ li, a{
   border: 2.5px solid rgb(179, 0, 255);
 }
 .shop-imgs:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);;
+    transform: translateY(-50px);
+    box-shadow: 0 10px 20px rgba(253, 1, 1, 0.2);
+    transform: scale(1.05);
   }
